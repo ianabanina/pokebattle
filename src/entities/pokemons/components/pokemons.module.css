@@ -1,0 +1,13 @@
+.pokemons-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pokemons-header,
+.pokemons-info {
+	font-size: 1.8rem;
+	text-align: center;
+	margin-bottom: 16px;
+	margin-top: 8px;
+}
