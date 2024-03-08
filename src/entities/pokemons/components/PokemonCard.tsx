@@ -16,6 +16,8 @@ export const PokemonCard: React.FC<IComponentProps> = props => {
 
 	const imageUrl = `https://img.pokemondb.net/artwork/${name}.jpg`;
 
+	const hasHP = hp !== undefined;
+
 	return (
 		<div
 			className={`${styles['pokemon-card']} ${
@@ -34,7 +36,9 @@ export const PokemonCard: React.FC<IComponentProps> = props => {
 
 			<div className={styles['pokemon-card__header']}>{name}</div>
 
-			{hp && <div className={styles['pokemon-card__content-lg']}>{hp} XP</div>}
+			{hasHP && (
+				<div className={styles['pokemon-card__content-lg']}>{hp} XP</div>
+			)}
 		</div>
 	);
 };

@@ -1,0 +1,16 @@
+.battle-log-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 4px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	color: #444;
+}
+
+.battle-log {
+	max-height: 300px;
+	overflow: scroll;
+	padding: 4px;
+}

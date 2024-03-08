@@ -1,0 +1,24 @@
+.battle-winner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 4px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	color: #444;
+}
+
+.battle-winner__header {
+	font-size: 1.6rem;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+.battle-winner__footer {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
